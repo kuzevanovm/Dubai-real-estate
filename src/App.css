@@ -1,0 +1,834 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+
+h1, h2, h3, p, span, a, blockquote {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.Home {
+  background-color: #272727;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #272727;
+  color: #fff;
+}
+
+.logo img{
+    width: 80px; 
+    height: auto;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f3c200;
+}
+
+.btn-primary {
+  background-color: #f3c200;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+}
+
+.offer {
+    background-color: #272727;
+}
+
+.hero {
+    position: relative;
+    width: 1200px; 
+    height: 800px; 
+    margin: 0 auto; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-size: cover; 
+    background-position: center; 
+    color: #fff; 
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .hero-content {
+    text-align: center;
+    max-width: 800px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content .highlight {
+    color: #f3c200; 
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .projects-section {
+    padding: 50px 20px;
+    background-color: #272727; 
+    color: #fff;
+  }
+  
+  .projects-header {
+    max-width: 1200px;
+    margin: 0 auto 50px;
+    text-align: left; 
+  }
+  
+  .projects-header h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .projects-header p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+    text-align: justify; 
+  }
+  
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .project-card {
+    background: #333;
+    border-radius: 0px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .project-card p {
+    padding: 10px 15px;
+    font-size: 1rem;
+    text-align: justify
+  }
+  
+  .project-card.highlight-card {
+    background: #f3c200; 
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+.Clients{
+    background-color: #272727;
+    margin: 90px;
+}
+.Clients h2 {
+    color: white;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.clients-container {
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+    gap: 20px; 
+    background-color: #272727;
+
+}
+ 
+  .testimonial {
+    padding: 20px;
+    text-align: left;
+    width: 1200px;
+    position: relative;
+    border: 2px solid #f3c200; 
+    display: flex;
+    align-items: center;
+    border-radius: 0; 
+    color: white;
+  }
+  
+  .testimonial-content {
+    margin-right: 15px; 
+  }
+  
+  .testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  blockquote {
+    color: rgb(171, 167, 167);
+    margin: 0;
+  }
+  
+
+.contact-us {
+    background-size: cover;
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+.contact-us p{
+    font-weight: bold;
+
+}  
+
+.contact-us h2 {
+    font-size: 70px;
+    font-weight: bold;
+}  
+  .contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color:#000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #21201d;
+  }
+
+  .footer {
+    background-color: #272727;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-line {
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3); 
+    margin: 10px 0;
+  }
+  
+  .footer-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .footer-logo {
+    width: 80px; 
+    height: auto;
+  }
+  
+  .footer-content {
+
+    margin: 20px auto 0;
+    text-align: left; 
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #ccc;
+  }
+
+.buy-page {
+  padding-top: 20px;
+  background: #272727;
+}
+
+.buy-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 40px;
+  color: #fff;
+}
+
+.property-container {
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 0 16px; 
+}
+
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px; 
+  justify-content: center;
+}
+
+.property-card {
+  width: 300px; 
+  height: 500px; 
+  overflow: hidden;
+  background: #272727;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+}
+
+.property-card-image {
+  width: 100%;
+  height: 50%; 
+  object-fit: cover;
+}
+
+.property-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  border: 1px solid #f3c200;
+}
+
+.property-card h3 {
+  font-size: 23px; 
+  margin: 0 0 10px;
+  color: #fff;
+  text-align: left;
+}
+
+.property-card p {
+  
+  text-align: left;
+  color: rgba(255, 255, 255, 0.327);
+}
+
+.property-card-description p {
+  font-size: 12px; 
+  margin: 0;
+  
+}
+
+.property-card-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.property-card-link:hover {
+  text-decoration: underline;
+}
+
+.contact-page {
+  background-color: #272727;
+  padding-top: 20px;
+}
+
+.contact-page h1 {
+  font-size: 36px;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.contact-map-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+}
+
+.contact-info {
+  background: #333;
+  padding: 20px;
+  max-width: 400px;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  color: #f3c200;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.contact-info p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.contact-map {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.contact-form-section {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.contact-form-section h2{
+  margin-left: 335px;
+  align-self: flex-start;
+  padding-bottom: 60px;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-form {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-row input,
+.form-row textarea {
+  flex: 1;
+  padding: 12px;
+  background-color: #272727;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+.submit-button {
+  padding: 12px 24px;
+  background: #f3c200;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #ffa500;
+}
+
+.error-message {
+  color: white; /* Цвет ошибок теперь белый */
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.about-page {
+  background-color: #272727;
+  color: white; /* Цвет текста для улучшения видимости */
+  padding-top: 20px;
+}
+
+
+.about-page h1 {
+  text-align: left;
+  margin-bottom: 40px;
+  padding-left: 30px;
+  font-size: 36px;
+}
+
+.imgAbout {
+  width: 1400px;
+  height: 700px; 
+  display: block;
+  margin: 0 auto; 
+  border-radius: 0px; 
+}
+
+.intro-content p {
+  padding: 20px;
+  margin-bottom: 40px; 
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px; 
+}
+
+
+/* Для экранов <= 768px */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; 
+    padding: 1rem;
+    align-items: flex-start;
+  }
+
+  .logo img {
+    width: 60px;
+  }
+
+  .nav-links {
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-top: 1rem;
+  }
+
+  .nav-links li {
+    margin: 0.5rem 0;
+  }
+
+  .btn-primary {
+    width: 100%; 
+    padding: 1rem; 
+    margin-top: 1rem; 
+  }
+
+  .navbar p {
+    display: none; 
+  }
+  
+  .hero {
+    width: 100;
+  }
+  
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .projects-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .projects-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .clients-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    padding: 10px;
+    gap: 20px; 
+  }
+
+  .testimonial {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-us h2 {
+    font-size: 40px;
+  }
+
+  .footer-content {
+    font-size: 0.85rem;
+  }
+
+  .property-container {
+    padding: 0 10px; /* Уменьшаем отступы */
+  }
+
+  /* Сетка карточек будет 1 столбец */
+  .property-grid {
+    grid-template-columns: 1fr;
+    gap: 20px; /* Уменьшаем расстояние между карточками */
+  }
+
+  /* Карточка будет занимать 100% ширины */
+  .property-card {
+    height: auto; /* Карточка будет гибкой по высоте */
+  }
+
+  .property-card-content {
+    padding: 12px; /* Уменьшаем отступы внутри карточки */
+  }
+
+  /* Уменьшаем шрифт в карточках */
+  .property-card h3 {
+    font-size: 18px;
+  }
+
+  .property-card p {
+    font-size: 13px;
+  }
+
+  .about-page h1 {
+    font-size: 28px; /* Уменьшаем размер заголовка */
+    padding-left: 10px;
+  }
+
+  .intro-content p {
+    font-size: 16px; /* Уменьшаем размер текста */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .imgAbout {
+    width: 100%; /* Изображение всегда будет адаптироваться под ширину экрана */
+    height: auto; /* Убираем фиксированную высоту */
+  }
+
+  .contact-page h1 {
+    font-size: 28px; /* Уменьшаем размер заголовка */
+    padding-left: 10px;
+  }
+
+  .contact-map-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info {
+    max-width: 100%; /* Убираем ограничение по ширине для мобильных */
+    padding: 15px;
+  }
+
+  .contact-map {
+    width: 100%;
+    height: 250px; /* Уменьшаем высоту карты */
+  }
+
+  .contact-form-section h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .contact-form {
+    padding: 0 20px;
+  }
+
+  .form-row {
+    flex-direction: column; /* Ставим поля формы в один столбец */
+    gap: 10px;
+  }
+
+  .form-row input,
+  .form-row textarea {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+/* Для экранов <= 992px */
+@media (max-width: 992px) {
+  .hero {
+    width: 100;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .projects-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .projects-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .testimonial {
+    width: 32%;
+  }
+
+  .contact-us h2 {
+    font-size: 50px;
+  }
+
+  .property-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 карточки в строке */
+  }
+
+  .property-card {
+    height: 450px; /* Уменьшаем высоту карточки */
+  }
+
+  .property-card-content {
+    padding: 14px; /* Уменьшаем отступы внутри карточки */
+  }
+  .imgAbout {
+    width: 100%; /* Изображение всегда будет адаптироваться под ширину экрана */
+    height: auto; /* Убираем фиксированную высоту */
+  }
+  .about-page h1 {
+    font-size: 32px;
+    padding-left: 20px;
+  }
+
+  .intro-content p {
+    font-size: 17px; /* Немного уменьшаем размер текста для планшетов */
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .contact-page h1 {
+    font-size: 32px;
+    padding-left: 20px;
+  }
+
+  .contact-info {
+    max-width: 80%; /* Уменьшаем ширину контейнера для планшетов */
+  }
+
+  .contact-map {
+    width: 100%;
+    max-width: 500px; /* Уменьшаем ширину карты для планшетов */
+    height: 350px; /* Уменьшаем высоту карты */
+  }
+
+  .contact-form-section h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .contact-form {
+    padding: 0 20px;
+  }
+
+  .form-row {
+    flex-direction: column; /* Строки формы будут вертикальными */
+    gap: 10px;
+  }
+
+  .form-row input,
+  .form-row textarea {
+    width: 100%;
+  }
+}
+
+/* Для экранов <= 1200px */
+@media (max-width: 1200px) {
+  .hero {
+    width: 100%;
+  }
+
+  .projects-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .projects-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .testimonial {
+    width: 48%;
+  }
+
+  .contact-us h2 {
+    font-size: 60px;
+  }
+
+  .imgAbout {
+    width: 100%; /* Изображение всегда будет адаптироваться под ширину экрана */
+    height: auto; /* Убираем фиксированную высоту */
+  }
+  /* Для экранов от 1200px и выше (большие экраны) */
+  .about-page h1 {
+    font-size: 40px; /* Увеличиваем размер заголовка */
+    padding-left: 40px;
+  }
+
+  .intro-content p {
+    font-size: 19px; /* Увеличиваем размер текста */
+    margin-left: 40px; /* Увеличиваем отступы */
+    margin-right: 40px;
+  }
+  .contact-map-section {
+    padding: 50px; /* Увеличиваем отступы для больших экранов */
+  }
+
+  .contact-info {
+    max-width: 400px; /* Оставляем ширину для карточки */
+  }
+
+  .contact-map {
+    width: 600px;
+    height: 400px;
+  }
+
+  .contact-form-section h2 {
+    text-align: left;
+    margin-left: 335px;
+  }
+
+  .contact-form {
+    max-width: 800px;
+  }
+
+  .form-row {
+    gap: 20px;
+  }
+}
+
